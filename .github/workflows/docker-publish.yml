@@ -25,8 +25,7 @@ env:
 jobs:
 
   integration:
-    uses: learning-github-actions_ci-cd-for-container-images
-/python-ci-workflow.yml
+    uses: ./.github/workflows/python-ci-workflow.yml
     permissions:
       contents: read
       checks: write
